@@ -1,106 +1,20 @@
-html,body{
-    height:100%;
-    width:100%;
-    margin: 0px;
-}
 
-.navar{
-    background-color: white;
-    padding: 15px;
-    height: 80px;
-}
-
-
-#button{
-padding: 0px;
-}
-
-#button li{
-    display: inline;
-}
-
-#button li a {
-    
-    font-family:;
-    font-size: 15px;
-    text-decoration: none;
-    float: right;
-    padding: 10px;
-    background-color: #fafafa;
-    color: rgb(2, 2, 2);
-    }
-
-    
 .hero{
-    background-image: url(../img/taxi.jpg); 
-    background-size:cover;
-     height: 100vh;
-     width: 100vw;
-     text-align: center;
-}
-#disfrutatuviaje{  
-    background-color: #f7b617;
-    margin: 30px 30px 30px 30px;	
-    padding: 10px;
-    display: inline-block
-
-}
-
-
-h1{
-    color: #fafafa;
-}
-  .información{
-     background: #f7b617;
-     height: 100%;
-     width: 100%;
-}
-
-.información2{
-    text-align: center;
-    color: #fafafa;
-    
-}
-/*h1{
-  color: #fafafa;
-  background-color: #f7b617;
-  text-align: right;
- 
-}
-
-p2{
-  color: #fafafa;
-  background-color: #f7b617;
-  text-align: right;
-}*/
-
-.conduce{
-    background-image: url(../img/conduce.jpg);
-    background-size:cover;
+    background-image: url(../src/img/taxi.jpg);
+    background-position-y: -80em;
+    background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
-    display: block;
-
+    display: flex;
+    background-size: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  
 }
-
-.tarifa{
-    border:5px;
-    width: 300px;
-    height: 300px;
-    display: block;
-
-}
-.footer{
-    border:5px;
-    width: 300px;
-    height: 300px;
-    display: block;
-
-}
-
-/*div{
-    border:5px;
-    width: 300px;
-    height: 300px;
-    display: block;
+.hero-yellow-box{
+    background-color: rgb(255, 179, 0);
+    width: 27vw;
+    height: 63vh;
+    padding: 1em 2em 0 3em;
+    text-align: center;
+    font-size: 1.2em;
 }
