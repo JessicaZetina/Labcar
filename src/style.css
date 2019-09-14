@@ -1,4 +1,4 @@
-
+/*Hero*/
 .hero{
     background-image: url(../src/img/taxi.jpg);
     background-position-y: -80em;
@@ -8,7 +8,7 @@
     background-size: 100%;
     align-items: center;
     justify-content: flex-end;
-  
+    color: white;
 }
 .hero-yellow-box{
     background-color: rgb(255, 179, 0);
@@ -17,4 +17,39 @@
     padding: 1em 2em 0 3em;
     text-align: center;
     font-size: 1.2em;
+}
+/*Información de la nueva app*/
+.informacion{
+    background-color: rgb(255, 179, 0);
+   border-right-color: blue;
+}
+.informacion-white-box{
+    color: white;
+
+}
+.text-info{
+    text-align: end;
+    color: white;
+    
+}
+/*Conductor*/
+.conductor{
+    background-image: url(../src/img/conduce.jpg);
+    background-position: 0em -14em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    background-size: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+.info-conductor{
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
+    justify-content: center;
 }
